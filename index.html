@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>jokesgenerator</title>
+  </head>
+  <body>
+    <main class="min-vh-100 bg-black text-center pt-5">
+      <h1 class="text-danger text-decoration-underline fw-bold">
+        Enter Number From 0 to 99
+      </h1>
+
+      <input type="text" id="numberInput" class="form-control mx-auto mt-3" />
+
+      <button id="showMemeBtn" class="btn btn-danger mt-4">Show Meme</button>
+
+      <div id="errorMessage" class="text-danger fw-bold mt-3"></div>
+
+      <div id="memeContainer" class="container mt-4"></div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+#numberInput {
+  width: 15%;
+  min-width: 180px;
+}
+
+#memeContainer img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
